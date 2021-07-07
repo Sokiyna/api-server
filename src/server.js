@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.send('Hello world');
   });
 
-  
+
 app.use('*', notFoundHandler);
 app.use(errorHandler);
 
