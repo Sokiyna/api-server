@@ -9,14 +9,16 @@
     "express": "^4.17.1",
     "init": "^0.1.2",
     "mongoose": "^5.13.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0",
+    "supertest": "^6.1.3"
   },
   "devDependencies": {
     "@code-fellows/supergoose": "^1.1.0",
     "jest": "^27.0.6"
   },
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "jest --coverage --verbose"
   },
   "repository": {
